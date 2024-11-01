@@ -1,0 +1,49 @@
+/* styles.css */
+
+.btn {
+  height: 50px; 
+  width: 100%;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px; 
+  transition: background-color 0.3s, transform 0.3s; 
+  border: none; 
+}
+.r1{
+  padding-top: 180px;
+  width: 80%;
+  padding-left: 40px;
+  border: royalblue;
+}
+
+body{
+  background-color: black;
+}
+
+.btn:hover {
+  background-color: #ff6219; 
+  transform: scale(1.05); 
+}
+
+/* Active state */
+.btn:active {
+  transform: scale(0.95);
+  background-color: #e55318; 
+}
+
+/* Focus state */
+.btn:focus {
+  outline: none; 
+  box-shadow: 0 0 5px rgba(255, 98, 25, 0.5); 
+}
+
+/* Additional styles for Google Sign Up button */
+.google-btn {
+  background-color:green; 
+  color: white; 
+}
+
+.google-btn:hover {
+  background-color: #C13525; 
+}
